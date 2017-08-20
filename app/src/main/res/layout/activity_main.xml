@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/repair"
+    tools:context="com.developer.harshi.harshitacarrepairservices.MainActivity">
+
+   <Button
+       android:id="@+id/btnRepair"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Repair My Car"
+       tools:layout_editor_absoluteY="301dp"
+       tools:layout_editor_absoluteX="141dp"
+       android:layout_below="@+id/etMobile"
+       android:layout_alignRight="@+id/etMobile"
+       android:layout_alignEnd="@+id/etMobile"
+       android:layout_marginRight="48dp"
+       android:layout_marginEnd="48dp"
+       android:layout_marginTop="82dp" />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        tools:layout_editor_absoluteY="144dp"
+        tools:layout_editor_absoluteX="121dp"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/etMobile"
+        android:layout_alignRight="@+id/btnRepair"
+        android:layout_alignEnd="@+id/btnRepair" />
+    <EditText
+        android:id="@+id/etMobile"
+        android:inputType="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Contact Number"
+        tools:layout_editor_absoluteY="219dp"
+        tools:layout_editor_absoluteX="79dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
